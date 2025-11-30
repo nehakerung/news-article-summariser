@@ -1,0 +1,2 @@
+This training dataset contains a collection of text articles stored in the articles folder and their corresponding summaries in the summary folder. 
+Each article file is paired with a summary file sharing the same numeric identifier (e.g., articles/001.txt corresponds to summary/001.txt).
