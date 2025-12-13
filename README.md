@@ -3,16 +3,16 @@
 A custom abstractive summarization model fine-tuned to generate concise and accurate summaries of news articles. The model utilizes the pre-trained BART (Bidirectional and Auto-Regressive Transformer) architecture, specifically [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn), and has been trained on a curated [dataset](/training_dataset) of 511 news articles paired with human-written summaries. The model's performance is evaluated using ROUGE, BLEU, and BERTScore metrics to assess both lexical overlap and semantic matches.
 
 ## 📌 Contents
-* [🚀 Instructions to run code](#instructions-to-run-code)
-    * [📁 About Dataset](#about-dataset)
-* [💽 About Model](#about-model)
-    * [👍 Model Choice](#model-choice)
-    * [🔨Methods](#method)
+* [🚀 Instructions to run code](#-instructions-to-run-code)
+    * [📁 About Dataset](#-about-dataset)
+* [💽 About Model](#-about-model)
+    * [👍 Model Choice](#-model-choice)
+    * [🔨Method](#-method)
         * [Data preprocess](#1-data-preprocessing)
         * [Training](#2-model-training)
         * [Evaluation](#3-evaluation)
-    * [🔎 Evaluation Results](#evaluation-results)
-* [🔗 Links](#links)
+    * [🔎 Evaluation Results](#-evaluation-results)
+* [🔗 Links](#-links)
 
 ## 🚀 Instructions to run code
 All instructions and code paths depend on whether you're running locally or in a cloud notebook environment such as Google Colab.
