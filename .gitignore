@@ -15,8 +15,15 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# Model
+# Model checkpoints and outputs
 /bart-large-cnn-model
+outputs/
+runs/
+wandb/
+*.pt
+*.pth
+*.bin
+~$*
 
 # macOS specific files
 .DS_Store
